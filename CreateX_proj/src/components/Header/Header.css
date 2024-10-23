@@ -67,6 +67,12 @@ header {
 	
 	width: 50vw;
 }
+
+.main_title_img {
+	width: clamp(300px, 50vw, 700px);
+}
+
+
 .decoration_main_title {
 	color: #7772F1;
 	font-size: 2.8rem;

@@ -46,27 +46,25 @@ export default function Header() {
       <div className="main_title">
         <div className="main_title_info">
           <h1>
-            Best <span className="decoration_main_title">SEO & Marketing</span> Solutions for You
+            Best <span className="decoration_main_title">SEO & Marketing</span>{" "}
+            Solutions for You
           </h1>
-		  <button className="button_analysis">Get a free analysis</button>
+          <button className="button_analysis">Get a free analysis</button>
         </div>
-		<img src="./public/img/pipl.svg"/>
+        <img className="main_title_img" src="./public/img/pipl.svg" />
       </div>
 
-	  <div className="features">
-			<div className="features_info">
-				<img src='./public/img/icon-box-diograma.svg'/>
-				
-			</div>
-			<div className="features_info">
-				<img src='./public/img/icon-box-micro.svg'/>
-				
-			</div>
-			<div className="features_info">
-				<img src="./public/img/icon-box-web.svg"/>
-				
-			</div>
-	  </div>
+      <div className="features">
+        <div className="features_info">
+          <img src="./public/img/icon-box-diograma.svg" />
+        </div>
+        <div className="features_info">
+          <img src="./public/img/icon-box-micro.svg" />
+        </div>
+        <div className="features_info">
+          <img src="./public/img/icon-box-web.svg" />
+        </div>
+      </div>
     </div>
   );
 }
