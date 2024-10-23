@@ -1,0 +1,18 @@
+.info_block {
+	display: flex;
+	justify-content: center;
+	align-items: self-start;
+	padding: 5rem;
+	font-size: large;
+	position: relative;
+	h3 {
+		margin-right: 10px;
+	}
+}
+
+.img_clients {
+	position: absolute;
+	bottom: -20vh;
+	left: 50%;
+	transform: translateX(-50%);
+}
