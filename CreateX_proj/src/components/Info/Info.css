@@ -24,4 +24,5 @@
 .img_clients {
 	position: absolute;
 	left: 50%;
+	max-width: clamp(100px, 90vw, 100vw);
 }

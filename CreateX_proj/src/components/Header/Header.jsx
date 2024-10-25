@@ -5,6 +5,7 @@ import React from "react";
 export default function Header() {
   return (
     <div className="lending">
+      {/* <img className="lending_img" src="./public/img/background.png"/> */}
       <header>
         <div className="header_logo_menu">
           <img src="./public/img/logo.svg" />
